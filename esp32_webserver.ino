@@ -6,8 +6,8 @@
 #include <Adafruit_AHTX0.h>
 #include <Adafruit_GFX.h>     // Core graphics library
 #include <Adafruit_ST7789.h>  // Hardware-specific library for ST7789
-const char* ssid = "YOUR WIFI SSID";
-const char* password = "YOUR WIFI PASSWORD";
+const char* ssid = "YOUR WIFI SSID";// aqui deberas incluir tu ssid 
+const char* password = "YOUR WIFI PASSWORD";//aqui va tu contrasena 
 
 int canvasBack = 0x0000;//asignamos un color para el display 
 int canvasFont = 0xFFFF;// asignamos color para el texto 
